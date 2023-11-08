@@ -26,98 +26,98 @@ const SideBar = () => {
       key: "Dashboard",
       icon: <DashboardFilled />,
     },
-    {
-      label: "Attractions",
-      key: "Attractions",
-      icon: <SlackOutlined />,
-      children: [
-        {
-          label: (
-            <Link href={`/admin/manage-attractions`}>Manage Attractions</Link>
-          ),
-          key: `/admin/manage-attractions`,
-        },
+    // {
+    //   label: "Attractions",
+    //   key: "Attractions",
+    //   icon: <SlackOutlined />,
+    //   children: [
+    //     {
+    //       label: (
+    //         <Link href={`/admin/manage-attractions`}>Manage Attractions</Link>
+    //       ),
+    //       key: `/admin/manage-attractions`,
+    //     },
 
-        {
-          label: (
-            <Link href={`/admin/manage-attractions/booking-list`}>
-              Booking List
-            </Link>
-          ),
-          key: `/admin/booking-list`,
-        },
-        {
-          label: (
-            <Link href={`/admin/manage-attractions/cancel-list`}>
-              Cancel List
-            </Link>
-          ),
-          key: `/admin/cancel-list`,
-        },
-        {
-          label: (
-            <Link href={`/admin/manage-attractions/refund-list`}>
-              Refund List
-            </Link>
-          ),
-          key: `/admin/refund-list`,
-        },
-      ],
-    },
+    //     {
+    //       label: (
+    //         <Link href={`/admin/manage-attractions/booking-list`}>
+    //           Booking List
+    //         </Link>
+    //       ),
+    //       key: `/admin/booking-list`,
+    //     },
+    //     {
+    //       label: (
+    //         <Link href={`/admin/manage-attractions/cancel-list`}>
+    //           Cancel List
+    //         </Link>
+    //       ),
+    //       key: `/admin/cancel-list`,
+    //     },
+    //     {
+    //       label: (
+    //         <Link href={`/admin/manage-attractions/refund-list`}>
+    //           Refund List
+    //         </Link>
+    //       ),
+    //       key: `/admin/refund-list`,
+    //     },
+    //   ],
+    // },
 
-    {
-      label: <Link href={`/admin/manage-admins`}>Manage Admins</Link>,
-      key: "Manage Admins",
-      icon: <UserSwitchOutlined />,
-    },
+    // {
+    //   label: <Link href={`/admin/manage-admins`}>Manage Admins</Link>,
+    //   key: "Manage Admins",
+    //   icon: <UserSwitchOutlined />,
+    // },
     {
       label: <Link href={`/admin/manage-users`}>Manage Users</Link>,
       key: "Manage Users",
       icon: <UsergroupDeleteOutlined />,
     },
-    {
-      label: "Software Setting",
-      key: "Software Setting",
-      icon: <SettingFilled />,
-      children: [
-        {
-          label: <Link href={`/admin/manage-category`}>Manage Category</Link>,
-          key: `/admin/manage-category`,
-        },
-        {
-          label: <Link href={`/admin/manage-country`}>Manage Country</Link>,
-          key: `/admin/manage-country`,
-        },
-        {
-          label: <Link href={`/admin/manage-city`}>Manage City</Link>,
-          key: `/admin/manage-city`,
-        },
-      ],
-    },
-    {
-      label: "Website Setting",
-      key: "Website Setting",
-      icon: <ToolFilled />,
-      children: [
-        {
-          label: <Link href={`/admin/ui/banar`}>Banar</Link>,
-          key: `/admin/ui/banar`,
-        },
-        ,
-      ],
-    },
-    {
-      label: "Reports",
-      key: "Reports",
-      icon: <PieChartFilled />,
-    },
-    {
-      label: (
-        <Link href={"/manage-account/personal-details"}>Manage Profile</Link>
-      ),
-      key: "profile",
-      icon: <ProfileOutlined />,
-    },
+    // {
+    //   label: "Software Setting",
+    //   key: "Software Setting",
+    //   icon: <SettingFilled />,
+    //   children: [
+    //     {
+    //       label: <Link href={`/admin/manage-category`}>Manage Category</Link>,
+    //       key: `/admin/manage-category`,
+    //     },
+    //     {
+    //       label: <Link href={`/admin/manage-country`}>Manage Country</Link>,
+    //       key: `/admin/manage-country`,
+    //     },
+    //     {
+    //       label: <Link href={`/admin/manage-city`}>Manage City</Link>,
+    //       key: `/admin/manage-city`,
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: "Website Setting",
+    //   key: "Website Setting",
+    //   icon: <ToolFilled />,
+    //   children: [
+    //     {
+    //       label: <Link href={`/admin/ui/banar`}>Banar</Link>,
+    //       key: `/admin/ui/banar`,
+    //     },
+    //     ,
+    //   ],
+    // },
+    // {
+    //   label: "Reports",
+    //   key: "Reports",
+    //   icon: <PieChartFilled />,
+    // },
+    // {
+    //   label: (
+    //     <Link href={"/manage-account/personal-details"}>Manage Profile</Link>
+    //   ),
+    //   key: "profile",
+    //   icon: <ProfileOutlined />,
+    // },
   ];
 
   return (
