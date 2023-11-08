@@ -9,11 +9,10 @@ export default function Home() {
       <main className="h-screen flex-col flex justify-center items-center">
         <Result
           status="404"
-          title="Next JS Initial Setup - Page Router"
+          title="This Website Currently Devloping"
           subTitle={
             <div>
-              <p>Style with Tailwind and And Design</p>
-              <p>Redux RTK Implement</p>
+              <p>If You have any idea to share with me!</p>
             </div>
           }
         />
