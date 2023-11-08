@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Result } from "antd";
+import AdminLayout from "@/layouts/AdminLayouts";
 
 const AdminDashboard = () => {
   return (
@@ -14,6 +15,10 @@ const AdminDashboard = () => {
       </main>
     </>
   );
+};
+
+AdminDashboard.getLayout = (page) => {
+  return <AdminLayout>{page}</AdminLayout>;
 };
 
 export default AdminDashboard;

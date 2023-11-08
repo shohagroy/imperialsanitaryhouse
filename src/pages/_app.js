@@ -4,7 +4,9 @@ import { ConfigProvider } from "antd";
 import { Provider } from "react-redux";
 
 export default function App({ Component, pageProps }) {
-  return (
+  const getLayout = Component.getLayout || ((page) => page);
+
+  return getLayout(
     <Provider store={store}>
       <ConfigProvider>
         <Component {...pageProps} />
